@@ -1,10 +1,10 @@
 buildscript {
 	repositories {
 		maven {
-			//url "$System.env.artifactory_contextUrl"
+			url "$System.env.artifactory_contextUrl"
 			credentials {
-				//username = "$System.env.artifactory_user"
-				//password = "$System.env.artifactory_password"
+				username = "$System.env.artifactory_user"
+				password = "$System.env.artifactory_password"
 			}
     		}
 	}
